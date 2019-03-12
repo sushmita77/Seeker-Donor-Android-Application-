@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "357513238958",
+    "firebase_url": "https://seekersdonars.firebaseio.com",
+    "project_id": "seekersdonars",
+    "storage_bucket": "seekersdonars.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357513238958:android:e8b2ad40ef09b20e",
+        "android_client_info": {
+          "package_name": "com.giveandtake.sumi0717.seekersdonars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357513238958-1jkpd0pvaalm43c4d7dehlu5hn7sijqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgXc5DYLckhyxcddVxaw28NHV591s_xPY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

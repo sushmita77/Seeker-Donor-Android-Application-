@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Connect-2-Transform</string>
+    <string name="title_activity_donar">DonarActivity</string>
+
+    <string-array name="donar_items">
+        <item>Choose from below list</item>
+        <item>Text Books</item>
+        <item>Note Books</item>
+        <item>Pencil Eraser Pens</item>
+        <item>Color Pencils and paints</item>
+        <item>Toys</item>
+    </string-array>
+</resources>

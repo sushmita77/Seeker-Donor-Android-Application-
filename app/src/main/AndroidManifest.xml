@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.giveandtake.sumi0717.seekersdonars">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/seekerlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.giveandtake.sumi0717.seekersdonars.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.giveandtake.sumi0717.seekersdonars.SeekerActivity"
+            android:label="" />
+        <activity
+            android:name="com.giveandtake.sumi0717.seekersdonars.DonarActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.giveandtake.sumi0717.seekersdonars.DialogForBooks" />
+        <activity android:name="com.giveandtake.sumi0717.seekersdonars.DialogForToys" />
+        <activity android:name="com.giveandtake.sumi0717.seekersdonars.LoginActivity" />
+        <activity android:name="com.giveandtake.sumi0717.seekersdonars.RegisterActivity" />
+        <activity android:name="com.giveandtake.sumi0717.seekersdonars.ShowMyItems"></activity>
+    </application>
+
+</manifest>
